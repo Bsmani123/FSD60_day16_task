@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+#countdown {
+    font-size: 5rem;
+    text-align: center;
+}
+
+#countdown.happy-independence-day {
+    font-size: 4rem;
+    color: tomato;
+    animation: sparkle 1s infinite;
+}
+
+@keyframes sparkle {
+    100% { color: tomato; }
+    100% { color: white; }
+    100% { color: green; }
+}
